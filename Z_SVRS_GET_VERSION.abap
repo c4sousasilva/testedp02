@@ -12,4 +12,6 @@ FUNCTION z_svrs_get_version.
 
   DATA: lv_xstring TYPE xstring.
 
+  CALL FUNCTION 'Z_123'.
+
 ENDFUNCTION.
